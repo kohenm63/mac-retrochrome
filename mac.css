@@ -88,3 +88,16 @@ img {
 * {
   cursor: url("images/mac-cursor.png"), auto !important;
 }
+
+:fullscreen body,
+:-webkit-full-screen body {
+  all: unset !important;
+}
+
+html:fullscreen,
+body:fullscreen,
+html:-webkit-full-screen,
+body:-webkit-full-screen {
+  all: unset !important;
+}
+
