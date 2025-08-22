@@ -1,0 +1,86 @@
+:fullscreen body,
+:-webkit-full-screen body {
+  all: unset !important;
+}
+
+html:fullscreen,
+body:fullscreen,
+html:-webkit-full-screen,
+body:-webkit-full-screen {
+  all: unset !important;
+}
+
+
+body {
+  font-family: 'Courier New', 'Monaco', monospace !important;
+  background-color: #c3c3c3 !important;
+  color: black !important;
+  margin: 0 !important;
+  padding: 20px !important;
+  image-rendering: pixelated !important;
+  filter: grayscale(70%) !important;
+}
+
+header {
+  background-color: #e0e0e0 !important;
+  border: 2px solid #888 !important;
+  padding: 10px !important;
+  box-shadow: 1px 1px #fff, -1px -1px #000 !important;
+  margin-bottom: 20px !important;
+}
+
+h1 {
+  font-size: 20px !important;
+  margin: 0 !important;
+}
+
+button, input, select, textarea {
+  border: 2px solid #888 !important;
+  background: #e0e0e0 !important;
+  font-family: 'Monaco', monospace !important;
+  padding: 4px 8px !important;
+  box-shadow: 1px 1px #fff, -1px -1px #000 !important;
+  margin: 5px 0 !important;
+}
+
+a {
+  color: #0000cc !important;
+  text-decoration: underline !important;
+}
+
+img {
+  max-width: 100% !important;
+  filter: grayscale(100%) contrast(120%) !important;
+  image-rendering: pixelated !important;
+}
+
+.content-box {
+  border: 2px solid #888 !important;
+  background-color: #f0f0f0 !important;
+  padding: 15px !important;
+  box-shadow: inset 1px 1px #fff, inset -1px -1px #000 !important;
+}
+
+/* Top Bar for Retro Mac Vibes */
+#mac-top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 28px;
+  background: #d6d6d6;
+  border-bottom: 2px solid #888;
+  font-family: 'Monaco', monospace;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  z-index: 999999;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+#mac-top-bar span {
+  margin-right: 20px;
+  color: black;
+  user-select: none;
+}

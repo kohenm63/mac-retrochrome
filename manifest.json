@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Mac Retrochrome",
+  "version": "1.0",
+  "description": "Classic Mac aesthetic theme with a retro UI.",
+  "theme": {
+    "images": {
+      "theme_frame": "images/retro-frame.png"
+    },
+    "colors": {
+      "frame": [195, 195, 195],
+      "toolbar": [224, 224, 224],
+      "tab_text": [0, 0, 0],
+      "tab_background_text": [80, 80, 80],
+      "bookmark_text": [0, 0, 0],
+      "ntp_background": [243, 243, 243],
+      "ntp_text": [0, 0, 0],
+      "button_background": [210, 210, 210]
+    },
+    "properties": {
+      "ntp_background_alignment": "top"
+    }
+  }
+}
